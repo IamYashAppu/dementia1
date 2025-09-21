@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useRef, useEffect } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { 
   Mic, 
   MicOff, 
@@ -27,7 +27,7 @@ interface SpeechTask {
   instruction: string
   prompt: string
   duration: number
-  icon: any
+  icon: React.ComponentType<any>
   color: string
 }
 
@@ -174,7 +174,7 @@ export default function SpeechAnalysisPage() {
         }
         
         // Simulate speech analysis
-        analyzeRecording(audioBlob)
+        analyzeRecording()
       }
 
       mediaRecorder.start()
@@ -226,7 +226,7 @@ export default function SpeechAnalysisPage() {
     }
   }
 
-  const analyzeRecording = (audioBlob: Blob) => {
+  const analyzeRecording = () => {
     // Simulate AI analysis - in real implementation, this would send to AI service
     const task = speechTasks[currentTask]
     const duration = recordingTime
@@ -532,7 +532,7 @@ export default function SpeechAnalysisPage() {
                         <Button
                           onClick={() => {
                             // Mark task as completed for demo purposes
-                            analyzeRecording(new Blob())
+                            analyzeRecording()
                           }}
                           className="bg-blue-500 hover:bg-blue-600"
                         >

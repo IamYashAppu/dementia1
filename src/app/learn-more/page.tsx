@@ -6,7 +6,6 @@ import {
   Shield, 
   Users, 
   Heart, 
-  Zap, 
   Award, 
   ArrowRight, 
   ArrowLeft,

@@ -1,17 +1,15 @@
 "use client"
 
 import { useState, useEffect } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { 
   Brain, 
   Clock, 
   Target, 
   Shuffle, 
   CheckCircle, 
-  XCircle, 
   ArrowRight, 
   ArrowLeft,
-  RotateCcw,
   Timer
 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
@@ -23,7 +21,7 @@ interface TestResult {
   score: number
   maxScore: number
   timeSpent: number
-  responses: any[]
+  responses: unknown[]
 }
 
 export default function CognitiveAssessmentPage() {
@@ -113,7 +111,7 @@ export default function CognitiveAssessmentPage() {
     
     let score = 0
     let maxScore = 10
-    let responses: any[] = []
+    let responses: unknown[] = []
 
     if (test.id === 'memory') {
       score = memoryScore
@@ -254,7 +252,7 @@ export default function CognitiveAssessmentPage() {
     }
   }
 
-  const shuffleArray = (array: any[]) => {
+  const shuffleArray = (array: string[]) => {
     const shuffled = [...array]
     for (let i = shuffled.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1))
@@ -424,7 +422,7 @@ export default function CognitiveAssessmentPage() {
                         key={index}
                         onClick={() => handleAttentionClick(option)}
                         className="h-20 text-4xl"
-                        variant={option === attentionTarget ? "default" : "outline"}
+                        variant={option === attentionTarget ? "primary" : "outline"}
                       >
                         {option}
                       </Button>

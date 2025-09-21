@@ -5,7 +5,7 @@ export interface CognitiveTestResult {
   score: number
   maxScore: number
   timeSpent: number
-  responses: any[]
+  responses: unknown[]
 }
 
 export interface SpeechAnalysisResult {

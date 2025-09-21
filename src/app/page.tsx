@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import { Brain, Heart, Shield, Users, ArrowRight, Sparkles } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card'
+import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 import { LanguageSelector } from '@/components/LanguageSelector'
 import { getGreeting } from '@/lib/utils'
 import Link from 'next/link'
