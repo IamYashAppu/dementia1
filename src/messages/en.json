@@ -1,0 +1,181 @@
+{
+  "common": {
+    "appName": "Cogni Health",
+    "welcome": "Welcome",
+    "getStarted": "Get Started",
+    "startAssessment": "Start Assessment",
+    "learnMore": "Learn More",
+    "next": "Next",
+    "previous": "Previous",
+    "continue": "Continue",
+    "back": "Back",
+    "close": "Close",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "home": {
+    "greeting": {
+      "morning": "Good Morning",
+      "afternoon": "Good Afternoon", 
+      "evening": "Good Evening"
+    },
+    "hero": {
+      "title": "Cogni Health",
+      "subtitle": "AI-Powered Cognitive Health Screening",
+      "description": "Early detection of cognitive changes through advanced AI analysis of speech, behavior, and cognitive patterns. Simple, accessible, and designed for everyone."
+    },
+    "features": {
+      "title": "How Cogni Health Works",
+      "subtitle": "Our comprehensive approach combines multiple assessment methods for accurate, early detection",
+      "cognitiveAssessment": {
+        "title": "Cognitive Assessment",
+        "description": "Comprehensive memory, attention, and reasoning tests designed by neurological experts"
+      },
+      "speechAnalysis": {
+        "title": "Speech Analysis", 
+        "description": "Advanced AI analyzes speech patterns, pauses, and linguistic complexity"
+      },
+      "earlyDetection": {
+        "title": "Early Detection",
+        "description": "Identify subtle cognitive changes before they become noticeable in daily life"
+      },
+      "multiLanguage": {
+        "title": "Multi-Language Support",
+        "description": "Available in English, Hindi, and Kannada with culturally appropriate content"
+      }
+    },
+    "cta": {
+      "title": "Take Control of Your Cognitive Health Today",
+      "description": "Early detection can make all the difference. Start your journey towards better cognitive health with our AI-powered assessment.",
+      "button": "Begin Assessment Now"
+    }
+  },
+  "assessment": {
+    "profile": {
+      "title": "Let's Get Started", 
+      "subtitle": "We'll need a few details to personalize your assessment experience",
+      "step1": {
+        "title": "What's your name?",
+        "description": "This helps us personalize your experience",
+        "placeholder": "Enter your full name"
+      },
+      "step2": {
+        "title": "What's your age?",
+        "description": "This helps us tailor the assessment appropriately", 
+        "placeholder": "Enter your age"
+      },
+      "step3": {
+        "title": "Preferred Language",
+        "description": "Choose the language you're most comfortable with"
+      },
+      "step4": {
+        "title": "Any specific concerns?",
+        "description": "Select any areas you'd like us to focus on (optional)",
+        "concerns": {
+          "memory": "Memory issues",
+          "wordFinding": "Difficulty finding words",
+          "concentration": "Trouble concentrating",
+          "dailyTasks": "Confusion with daily tasks",
+          "mood": "Changes in mood or behavior",
+          "checkup": "General health checkup"
+        }
+      }
+    },
+    "cognitive": {
+      "title": "Cognitive Assessment",
+      "description": "Complete three quick tests to evaluate your memory, attention, and reasoning abilities. Take your time and do your best!",
+      "memory": {
+        "title": "Memory Test",
+        "description": "Remember and repeat sequences of numbers",
+        "instruction": "Memorize this sequence:",
+        "enterSequence": "Enter the sequence you saw:"
+      },
+      "attention": {
+        "title": "Attention Test",
+        "description": "Focus on specific targets among distractors",
+        "instruction": "Click on all {target} symbols"
+      },
+      "reasoning": {
+        "title": "Reasoning Test", 
+        "description": "Solve logical puzzles and patterns"
+      }
+    },
+    "speech": {
+      "title": "Speech Analysis",
+      "description": "Complete speech tasks for AI-powered linguistic analysis",
+      "tasks": {
+        "description": {
+          "title": "Picture Description",
+          "instruction": "Look at the image and describe what you see in detail",
+          "prompt": "Describe this peaceful garden scene: What do you see? What colors, objects, and activities can you observe?"
+        },
+        "storytelling": {
+          "title": "Story Telling", 
+          "instruction": "Tell a story based on the given prompt",
+          "prompt": "Tell me about a memorable day from your childhood. What happened? Who was there? How did you feel?"
+        },
+        "fluency": {
+          "title": "Word Fluency",
+          "instruction": "Say as many words as you can that start with the given letter",
+          "prompt": "Say as many words as you can that start with the letter \"S\". For example: sun, smile, special..."
+        },
+        "reading": {
+          "title": "Reading Passage",
+          "instruction": "Read the following passage aloud clearly and naturally",
+          "prompt": "The morning sun cast long shadows across the peaceful meadow. Birds chirped melodiously in the distance while a gentle breeze rustled through the leaves of the old oak tree."
+        }
+      },
+      "recording": {
+        "ready": "Ready to Record",
+        "recording": "Recording...",
+        "paused": "Recording Paused",
+        "startRecording": "Start Recording",
+        "stopRecording": "Stop",
+        "pauseRecording": "Pause",
+        "resumeRecording": "Resume",
+        "resetRecording": "Reset",
+        "playRecording": "Play",
+        "testMicrophone": "Make sure your microphone is working and you're in a quiet environment"
+      }
+    },
+    "results": {
+      "title": "Your Cognitive Health Assessment",
+      "subtitle": "Complete analysis of your cognitive assessment with personalized insights and recommendations",
+      "overallRisk": "Overall Risk",
+      "cognitiveAreas": "Cognitive Domain Analysis",
+      "recommendations": "Personalized Recommendations",
+      "nextSteps": "What's Next?",
+      "downloadReport": "Download Report",
+      "shareResults": "Share Results"
+    }
+  },
+  "accessibility": {
+    "title": "Accessibility Settings",
+    "fontSize": "Text Size",
+    "contrast": "Contrast", 
+    "voiceGuidance": "Voice Guidance",
+    "animation": "Animation",
+    "testVoice": "Test Voice Guidance",
+    "sizes": {
+      "normal": "Normal",
+      "large": "Large", 
+      "extraLarge": "Extra Large"
+    },
+    "contrasts": {
+      "normal": "Normal",
+      "high": "High Contrast"
+    },
+    "motions": {
+      "normal": "Normal Motion",
+      "reduced": "Reduced Motion"
+    },
+    "voiceStates": {
+      "enabled": "Enabled",
+      "disabled": "Disabled"
+    }
+  }
+}
